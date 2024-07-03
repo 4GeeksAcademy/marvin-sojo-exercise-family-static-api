@@ -12,6 +12,8 @@ app = Flask(__name__)
 app.url_map.strict_slashes = False
 CORS(app)
 
+# Esto es un comentario de prueba
+
 # create the jackson family object
 jackson_family = FamilyStructure("Jackson")
 
